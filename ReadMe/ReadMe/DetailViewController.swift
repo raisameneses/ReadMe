@@ -19,6 +19,7 @@ class DetailViewController: UIViewController {
         self.titleLabel.text = book.title
         self.authorLabel.text = book.author
         self.imageView.image = book.image
+        imageView.layer.cornerRadius = 16
     }
     @IBAction func updateImage(){
         let imagePicker = UIImagePickerController()
