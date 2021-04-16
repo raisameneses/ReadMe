@@ -17,6 +17,8 @@
 		16D1C806260EFE1000FF463C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1C805260EFE1000FF463C /* DetailViewController.swift */; };
 		16D1C80A260EFF6A00FF463C /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1C809260EFF6A00FF463C /* Library.swift */; };
 		16D1C80D26101E1B00FF463C /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1C80C26101E1B00FF463C /* BookCell.swift */; };
+		16D1C810261EB48E00FF463C /* NewBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D1C80F261EB48E00FF463C /* NewBookViewController.swift */; };
+		16D1C81326269C0A00FF463C /* LibraryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D1C81226269C0A00FF463C /* LibraryHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		16D1C805260EFE1000FF463C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		16D1C809260EFF6A00FF463C /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Library.swift; path = "../../../video-tv-materials/06-reload-data/Library.swift"; sourceTree = "<group>"; };
 		16D1C80C26101E1B00FF463C /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		16D1C80F261EB48E00FF463C /* NewBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookViewController.swift; sourceTree = "<group>"; };
+		16D1C81226269C0A00FF463C /* LibraryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				16D1C7F5260C2A8700FF463C /* Book.swift */,
 				16D1C805260EFE1000FF463C /* DetailViewController.swift */,
 				16D1C80C26101E1B00FF463C /* BookCell.swift */,
+				16D1C80F261EB48E00FF463C /* NewBookViewController.swift */,
+				16D1C81226269C0A00FF463C /* LibraryHeaderView.xib */,
 			);
 			path = ReadMe;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 				16D1C7ED260C28C300FF463C /* LaunchScreen.storyboard in Resources */,
 				16D1C7EA260C28C300FF463C /* Assets.xcassets in Resources */,
 				16D1C7E8260C28C300FF463C /* Main.storyboard in Resources */,
+				16D1C81326269C0A00FF463C /* LibraryHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +158,7 @@
 			files = (
 				16D1C7F6260C2A8700FF463C /* Book.swift in Sources */,
 				16D1C7E5260C28C300FF463C /* LibraryViewController.swift in Sources */,
+				16D1C810261EB48E00FF463C /* NewBookViewController.swift in Sources */,
 				16D1C806260EFE1000FF463C /* DetailViewController.swift in Sources */,
 				16D1C80D26101E1B00FF463C /* BookCell.swift in Sources */,
 				16D1C7E1260C28C300FF463C /* AppDelegate.swift in Sources */,
